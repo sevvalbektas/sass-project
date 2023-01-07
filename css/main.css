@@ -4,4 +4,28 @@
   box-sizing: border-box;
 }
 
+.nav {
+  border: 2px solid red;
+  padding: 1rem;
+  height: 10vh;
+}
+.nav__list {
+  text-align: right;
+}
+.nav__item {
+  display: inline;
+  padding: 1rem;
+}
+.nav__link {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.nav__link:hover {
+  color: blue;
+}
+.nav__link--active {
+  color: orange;
+}
+
 /*# sourceMappingURL=main.css.map */
