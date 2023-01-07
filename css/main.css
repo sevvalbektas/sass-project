@@ -5,7 +5,6 @@
 }
 
 .nav {
-  border: 2px solid red;
   padding: 1rem;
   height: 10vh;
 }
@@ -20,12 +19,13 @@
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .nav__link:hover {
   color: blue;
 }
 .nav__link--active {
-  color: orange;
+  color: #ff652f;
 }
 
 /*# sourceMappingURL=main.css.map */
