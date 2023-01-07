@@ -21,6 +21,8 @@
     text-transform: uppercase;
     font-weight: 500;
     font-family: $font-family;
+    // transition: all 1s;
+    @include transition(1s);
 
     &:hover {
       color: blue;
