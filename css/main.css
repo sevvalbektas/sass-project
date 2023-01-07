@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 
-.link-style a, footer.horizontal a {
+.link-style a, footer.vertical .social-icons a, footer.horizontal a {
   padding: 0.4rem;
   transition: all 1s;
 }
-.link-style ahover, footer.horizontal ahover {
+.link-style ahover, footer.vertical .social-icons ahover, footer.horizontal ahover {
   color: #ff652f;
 }
 
@@ -19,6 +19,27 @@ footer.horizontal {
   justify-content: space-between;
   align-items: flex-end;
   padding: 1rem;
+}
+
+footer.vertical {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+footer.vertical .social-icons {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 1rem;
+}
+footer.vertical .copyright {
+  position: fixed;
+  bottom: 1rem;
+  right: 3rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
 
 .nav {
